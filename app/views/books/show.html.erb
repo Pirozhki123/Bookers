@@ -8,4 +8,4 @@
   <%= @book.body %>
 </p>
 
-<%= link_to "Edit", edit_book_path([:id]) %> | <%= link_to "Back", books_path %>
+<%= link_to "Edit", edit_book_path(@book) %> | <%= link_to "Back", books_path %>
